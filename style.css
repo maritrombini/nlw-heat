@@ -27,6 +27,18 @@ main {
   height: 770px;
 }
 
+#topo-cracha {
+  margin-bottom: -103px;
+  z-index: 2;
+}
+
+#quebra {
+  position: absolute;
+  margin-left: -40px;
+  margin-top: 80px;
+  z-index: 0;
+}
+
 .container {
   max-width: 250px;
   margin-left: auto;
