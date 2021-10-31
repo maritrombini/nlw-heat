@@ -28,7 +28,7 @@ main {
 }
 
 #topo-cracha {
-  margin-bottom: -103px;
+  margin-bottom: -131px;
   z-index: 2;
 }
 
@@ -40,6 +40,7 @@ main {
 }
 
 .container {
+  animation-name: bounce;
   max-width: 250px;
   margin-left: auto;
   margin-right: auto;
@@ -67,6 +68,17 @@ main {
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
 
+.text {
+  animation: animate 7.5s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 h1 {
   font-size: 1.5rem;
 
